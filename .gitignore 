@@ -1,0 +1,9 @@
+# Compiled Object files
+*.o
+*.mod
+
+# Executables
+nada1D
+
+# Data Files
+*.dat

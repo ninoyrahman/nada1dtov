@@ -1,6 +1,7 @@
   SUBROUTINE Grid1D
   USE tmp_mdgrid
   USE tmp_mdparam
+  USE DATA_IO
 
   IMPLICIT NONE
 
@@ -15,11 +16,11 @@
 
 !    dx = 0.1 !gauge waves
  
-    dx = 0.2
+    dx = 4.0/nx
  
 !    dtfact =  0.5*1.5703926303627d-2!0.6
 
-    dtfact =  0.6
+!    dtfact =  read_dtfact()
 
     write(*,*) 'dtfact',dtfact
 
@@ -73,12 +74,3 @@
 
 
  ENDSUBROUTINE Grid1D
-
-
-
-
-
-
-
-
-

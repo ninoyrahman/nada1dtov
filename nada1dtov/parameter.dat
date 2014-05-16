@@ -1,0 +1,21 @@
+#############################################################################################################
+#																											#	
+#	dtfact: time step = dtfact * spatial step																#
+#	HydroOnly: only evolving of hydro 1, evolve hydro and metric 0											#
+# 	maxtime: maximum simulation time																		#
+#	outputtime: steps between two output(alp.dat, rho.dat etc.)												#
+#	reconstruction: PPM 1, others 0																			#
+#																											#		
+#############################################################################################################
+#dtfact
+0.1
+#nx
+800
+#HydroOnly
+1
+#maxtime
+10.0
+#outputtime
+100
+#reconstruction
+1
